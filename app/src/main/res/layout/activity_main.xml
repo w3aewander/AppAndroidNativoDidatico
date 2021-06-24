@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3E1C2"
+    tools:context="br.com.wscomvix.myapp.MainActivity">
+
+    <Button
+        android:id="@+id/btnTirarFoto"
+        android:layout_width="239dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="64dp"
+        android:onClick="abrirForResults"
+        android:paddingStart="10dp"
+        android:text="Foto"
+        app:iconGravity="textEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="267dp"
+        android:background="#B4C89C"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="239dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:onClick="obterUsuario"
+        android:paddingStart="10dp"
+        android:text="Obter usuário"
+        app:icon="@android:drawable/ic_menu_search"
+        app:iconGravity="start"
+        app:layout_constraintEnd_toEndOf="@+id/btnTirarFoto"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnTirarFoto"
+        app:layout_constraintTop_toBottomOf="@+id/btnTirarFoto" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#F3EEEE"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#4CAF50"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="234dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:onClick="abrirContasFixas"
+        android:text="Contas Fixas"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/btSair"
+        android:layout_width="234dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:onClick="sair"
+        android:text="Sair"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

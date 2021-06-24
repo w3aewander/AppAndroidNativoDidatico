@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyApp</string>
+
+    <string-array name="usuarios">
+        <item>Wanderlei</item>
+        <item>Solange</item>
+        <item>Elisangela</item>
+        <item>Valdirene</item>
+        <item>Rute</item>
+        <item>Terezinha</item>
+        <item>Rosemeire</item>
+        <item>Andrea</item>
+        <item>Sonia</item>
+        <item>Rosimary</item>
+        <item>Enir</item>
+        <item>Octávio</item>
+    </string-array>
+
+    <string-array name="contasFixas">
+        <item>Água</item>
+        <item>Luz</item>
+        <item>Telefone</item>
+        <item>Gás</item>
+        <item>Aluguel</item>
+    </string-array>
+
+</resources>
