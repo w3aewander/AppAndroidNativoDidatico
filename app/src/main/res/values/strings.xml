@@ -1,19 +1,25 @@
 <resources>
     <string name="app_name">MyApp</string>
 
+<!--    <string-array name="usuarios">-->
+<!--        <item>Wanderlei</item>-->
+<!--        <item>Solange</item>-->
+<!--        <item>Elisangela</item>-->
+<!--        <item>Valdirene</item>-->
+<!--        <item>Rute</item>-->
+<!--        <item>Terezinha</item>-->
+<!--        <item>Rosemeire</item>-->
+<!--        <item>Andrea</item>-->
+<!--        <item>Sonia</item>-->
+<!--        <item>Rosimary</item>-->
+<!--        <item>Enir</item>-->
+<!--        <item>Octávio</item>-->
+<!--    </string-array>-->
+
     <string-array name="usuarios">
-        <item>Wanderlei</item>
-        <item>Solange</item>
-        <item>Elisangela</item>
-        <item>Valdirene</item>
-        <item>Rute</item>
-        <item>Terezinha</item>
-        <item>Rosemeire</item>
-        <item>Andrea</item>
-        <item>Sonia</item>
-        <item>Rosimary</item>
-        <item>Enir</item>
-        <item>Octávio</item>
+       <item>João</item>
+        <item>José</item>
+        <item>Maria</item>
     </string-array>
 
     <string-array name="contasFixas">
@@ -23,5 +29,20 @@
         <item>Gás</item>
         <item>Aluguel</item>
     </string-array>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="drawer_register">Registrar</string>
+    <string name="drawer_app">MyApp</string>
+    <string name="drawer_app_login">Login</string>
+    <string name="drawer_app_logout">Logout</string>
 
 </resources>

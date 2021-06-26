@@ -9,26 +9,28 @@
     <ListView
         android:id="@+id/contasFixas"
         style="@android:style/Widget.ListView"
-        android:layout_width="405dp"
-        android:layout_height="527dp"
+        android:layout_width="407dp"
+        android:layout_height="412dp"
         android:entries="@array/contasFixas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.294" />
+        app:layout_constraintTop_toBottomOf="@+id/tvContasFixas"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/tvContasFixas"
         android:layout_width="0dp"
         android:layout_height="60dp"
+        android:layout_marginTop="4dp"
         android:background="#009688"
         android:gravity="center_horizontal|center_vertical"
         android:text="TextView"
         android:textColor="#F8F4F4"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

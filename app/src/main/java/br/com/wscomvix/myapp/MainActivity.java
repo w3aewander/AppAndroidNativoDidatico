@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
 
             //Toast.makeText(this, "Nenhuma dado ou foto.", Toast.LENGTH_LONG).show();
-            textUser.setText(data.getStringExtra("nome"));
+            //textUser.setText(data.getStringExtra("nome"));
         }
     }
 }
